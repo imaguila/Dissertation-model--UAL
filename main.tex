@@ -1,5 +1,5 @@
 %\documentclass[11pt, oneside]{book}
-\documentclass[11pt, twoside]{book}  %importante cambiar si es libro
+\documentclass[11pt, twoside]{book}  %change it for to side or one side
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
@@ -9,11 +9,11 @@
 %           Graficos, simbolos, tablas, bibliografía
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %---------------------------------------------------------------------------
-% Esto es para que el LaTeX sepa que el texto está en español:
-\usepackage[spanish,es-noshorthands,es-tabla]{babel}
-\selectlanguage{spanish}
+% language selection
+\usepackage{babel}
+\selectlanguage{english}
 %---------------------------------------------------------------------------
-% para uso en modo matemático
+% mathematics modelo
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{amsmath}
@@ -22,12 +22,12 @@
 % Para las imagenes
 
 \usepackage[dvips]{graphicx}
-\graphicspath{{Figuras/}} % se fija el camino para las figuras
-\usepackage{rotating}  %para poder rotar las figuras
+\graphicspath{{Figures/}} % figures folder
+\usepackage{rotating}  %to rotate figures
 \usepackage{wrapfig}
 
 %---------------------------------------------------------------------------
-% PIES DE FOTOS Y TABLAS
+% foots figures and tables
 
 \usepackage{float} % para objetos flotantes
 \usepackage{caption} % para los pies de fotos o tablas
@@ -65,33 +65,32 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 
 %
 
-%%%%%%%%%%%%%%%%%%%% Formato de la ual %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% Ual format %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \usepackage{UAL}
 %\usepackage[print,doble]{UAL}
 \usepackage{codigo}
 
-%%%%%% PAQUETES INCORPORADOS POR EL USUARIO
+%%%%%% User indcluded packages
 
-\usepackage{longtable}   %Tablas largas
+\usepackage{longtable}   %long tables
 \usepackage{verbatim}
-\usepackage{textcomp} %para completar los signos válidos
-\usepackage{eurosym} %simbolo del euro [\euro]
+\usepackage{textcomp} %more simbols
+\usepackage{eurosym} % euro [\euro]
 \usepackage[bottom]{footmisc}
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Datos identificativos del TFG                            %
+% ID data                            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \author{Isabel María del Águila Cano}
-\titulo{Libro de estilo para la  memoria del TFG de informática de la UAL }
-\subTitulo{DEPARTAMENTO DE
-INFORMÁTICA\\  ÁREA DE LENGUAJES Y SISTEMAS INFORMÁTICOS}
+\titulo{Guide for dissertation document }
+\subTitulo{cOMPUTER SCIENCE DEPARTMENT\\  LANGUAGE AREA}
 \estudios{Grado en Informática }
-\universidad{UNIVERSIDAD DE ALMERÍA}
+\universidad{UNIVERSITY OF ALMERÍA}
 \director{Fulanito de tal}
 \direct{Menganito de cual}
 \curso {2020/2021}
@@ -105,18 +104,18 @@ INFORMÁTICA\\  ÁREA DE LENGUAJES Y SISTEMAS INFORMÁTICOS}
 \portada
 
 \begin{dedicatoria}
-    Texto de la dedicatoria
+   Dedication text
 \end{dedicatoria}
 
 
 \input{indicesyrefe}
 
 % Borra el bloque si sólo queremos resumen en contraportada
-\addcontentsline{toc}{chapter}{Resumen y Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
 
-\chapter*{Resumen y Abstract}
+\chapter*{Abstract}
 
-\input{resumentexto.tex}
+\input{Abstract.tex}
 
 
 %se suelen utilizar archivos separados, por capitulos para agilizar la compilación en las versiones intermedias
@@ -128,13 +127,13 @@ INFORMÁTICA\\  ÁREA DE LENGUAJES Y SISTEMAS INFORMÁTICOS}
 \input{contenido2}
 
 
-\addcontentsline{toc}{section}{BIBLIOGRAFÍA }
+\addcontentsline{toc}{section}{BIBLIOGRAPHY }
 \bibliography{referencias}
 
 \appendix
 %\clearpage
 
-\input{apendices}
+\input{anex}
 
 
 \clearpage

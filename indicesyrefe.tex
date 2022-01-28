@@ -1,20 +1,22 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%% ESTO ES PARA LA TABLA DE CONTENIDOS (INDICE)%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% contents%%%%%%%%%%%%%%%%
 
 
 \setcounter{secnumdepth}{3} %niveles en capitulos hasta (1.1.1)
 \setcounter{tocdepth}{3} %niveles en indice hasta (1.1)
 
 
-\addtocontents{toc}{~\hfill\small{Página}\par} %añade "pagina" a tabla de contanidos
+\addtocontents{toc}{~\hfill\small{Página}\par} 
 \addtocontents{toc}{\vspace{2pt} \hrule \vspace{5mm} \par}
 
-%\renewcommand\contentsname{Índice de contenidos}
+\renewcommand\contentsname{CONTENTS}
+\renewcommand\listfigurename{FIGURE LIST}
+\renewcommand\listtablename{TABLE LIST}
 \tableofcontents
-\listoffigures % indice de figuras
-\listoftables % indice de tablas
-\lstlistoflistings % indice de listados
+\listoffigures % 
+\listoftables  tablas
+\lstlistoflistings 
 
 
 
@@ -23,10 +25,10 @@
 %---------------------------------------------------------------------------
 
 
-%\addcontentsline{toc}{section}{ABREVIATURAS}
+%\addcontentsline{toc}{section}{Acronyms}
 \clearpage
 \vspace{0.2cm}
-\section*{ABREVIATURAS}
+\section*{ACRONYMS}
 
 \begin{tabular}{ l   |    l  }
 	
@@ -43,5 +45,5 @@
 \end{tabular}
 
 
-%\addcontentsline{toc}{section}{ABREVIATURAS}
+%\addcontentsline{toc}{section}{Acronyms}
 
