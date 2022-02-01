@@ -1,7 +1,7 @@
-# Modelo oficioso de Trabajo fin de estudios para Grado de informática en la UAL
+# Unofficial model of Final Project for Computer Science Degree at UAL
 
-En este repositorio se hace público una plantilla latex que cumple con los requisitos de la Escuela Superior de Ingeniería para los estudios de Ingeniería Informática en la Universidad de Almería.
+In this repository is made public a latex template that meets the requirements of the School of Engineering for the studies of Computer Engineering at the University of Almeria.
 
-Además se realizan recomendaciones de estilo sobre como elaborar una memoria basados en la experiencia y trabajos previos.
+In addition, there are style recommendations on how to prepare a report based on experience and previous work.
 
-Otro enlace para este libro de estilo lo podemos encontrar en (https://www.overleaf.com/read/ngbvqvmzhymb)
+Another link to this style guide can be found at  
