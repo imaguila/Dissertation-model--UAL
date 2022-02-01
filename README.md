@@ -1,4 +1,4 @@
-# No official model of Final Project for Computer Science Degree at UAL
+# No official model of Final Project for Computer Science Degree at University of Almeria
 
 In this repository is made public a latex template that meets the requirements of the School of Engineering for the studies of Computer Engineering at the University of Almeria.
 
